@@ -1,0 +1,85 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.loaf {
+    margin-top: 100px;  
+    width: 100px;
+    height: 80px;
+    background-color: #6d3200;
+    border-radius: 50%;
+    position: relative;
+}
+ 
+.score {
+    background-color: #eec07b;
+    width: 50px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.score-1 {
+    transform: rotate(25deg);
+}
+
+.score-2 {
+    transform: rotate(155deg);
+}
+
+.quote {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+}
+
+.quote cite {
+    align-self: flex-end;
+}
+
+.card {
+    padding: 10px 20px;
+    background-color: #e6e6e6;
+    box-shadow: 2px 2px 2px 0px #cecccc;
+}
+
+.card h3 {
+
+}
+
+ul {
+    list-style: none;
+}
+
+li:before {
+    content: '🍞';
+    margin-right: 5px;
+}
+
+.card.requirements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .requirements {
+    display: flex;
+    justify-content: center;
+}
+
+.instructions {
+margin-left: 20px;
+}
